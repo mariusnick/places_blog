@@ -1,0 +1,50 @@
+.container{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: 1fr auto auto;
+  
+    border: 2px solid yellow;
+  }
+  /* add css for nested grid here */
+.box {border: 1px solid red
+    }
+.logo {
+      /* row start/column start/ row end/ column end */
+     grid-column: 1 / 2;
+     grid-row : 1 / 1; 
+    }
+.contact{
+        grid-column: 2 / 3;
+        grid-row : 1/1
+
+    }
+.register{
+        grid-column: 3 / -1;
+        grid-row : 1 / 1     
+    }
+   
+
+.title{
+       grid-column:1/-1;
+       grid-row: 2/2;
+   }
+.places{
+       grid-column: 1/-1;
+       grid-row: 3/-1;
+       display:grid;
+        grid-template-columns: repeat(4 30px) ;
+        grid-template-rows: repeat(2 fr);
+   }
+
+
+.one { grid-column: 1 / 2;
+      grid-row : 1 / 1;  }
+.two { grid-column: 2 / 3;
+        grid-row : 1 / 1;  }
+  
+
+   
+  
+  /* If Screen Is Wide Enough */
+  
+  
