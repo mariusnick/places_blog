@@ -1,0 +1,15 @@
+.image_fit {
+    width:100%;
+    height:100%;
+    object-fit:fill;
+}
+
+.fit {
+    width: 100%;
+    height: 100%;
+}
+
+.image_fix {
+    width:850px;
+    height:650px; 
+}
